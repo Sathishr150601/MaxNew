@@ -17,10 +17,6 @@ const SectionSlider: React.FC<SectionSliderProps> = ({ children }) => {
 		setScrollLeft(containerRef.current?.scrollLeft || 0);
 	};
 
-	const handleMouseUp = () => {
-		setIsDragging(false);
-	};
-
 	const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
 		if (!isDragging) return;
 		const x = e.pageX - (containerRef.current?.offsetLeft || 0);
@@ -30,13 +26,34 @@ const SectionSlider: React.FC<SectionSliderProps> = ({ children }) => {
 		}
 	};
 
+	const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+		setIsDragging(true);
+		setStartX(e.touches[0].pageX - (containerRef.current?.offsetLeft || 0));
+		setScrollLeft(containerRef.current?.scrollLeft || 0);
+	};
+
+	const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
+		if (!isDragging) return;
+		const x = e.touches[0].pageX - (containerRef.current?.offsetLeft || 0);
+		const walk = (x - startX) * 1; // Adjust scroll speed if needed
+		if (containerRef.current) {
+			containerRef.current.scrollLeft = scrollLeft - walk;
+		}
+	};
+
+	const stopDragging = () => {
+		setIsDragging(false);
+	};
+
 	useEffect(() => {
 		const handleMouseUpDocument = () => {
-			setIsDragging(false);
+			stopDragging();
 		};
 		document.addEventListener("mouseup", handleMouseUpDocument);
+		document.addEventListener("touchend", handleMouseUpDocument);
 		return () => {
 			document.removeEventListener("mouseup", handleMouseUpDocument);
+			document.removeEventListener("touchend", handleMouseUpDocument);
 		};
 	}, []);
 
@@ -46,7 +63,9 @@ const SectionSlider: React.FC<SectionSliderProps> = ({ children }) => {
 			className="w-full overflow-hidden cursor-grab"
 			onMouseDown={handleMouseDown}
 			onMouseMove={handleMouseMove}
-			onMouseLeave={handleMouseUp}
+			onMouseLeave={stopDragging}
+			onTouchStart={handleTouchStart}
+			onTouchMove={handleTouchMove}
 		>
 			{children}
 		</section>
