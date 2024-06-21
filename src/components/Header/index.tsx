@@ -1,11 +1,9 @@
-import React from 'react'
-
 const index = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+	return (
+		<div className="w-full fixed top-0 left-0 bg-[var(--Secondary)] h-24 text-center z-10">
+			<h3 className="text-[var(--Primary)]">Header</h3>
+		</div>
+	);
+};
 
-export default index
+export default index;

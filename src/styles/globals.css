@@ -1,33 +1,180 @@
+/*--------------------------------------------------
+	Tailwind Properties
+---------------------------------------------------*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/*--------------------------------------------------
+	Color Theme
+---------------------------------------------------*/
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--Primary: #fff;
+	--Secondary: #000;
+	--Accent: #e9cf7a;
+	--Border: #fff;
+
+	--Color1: #cb8b35;
+	--Color2: #353535;
+	--Color3: #feb93e;
+	--Color4: #353535;
+	--Color5: #fff;
+	--Color6: #fff;
+	--Color7: #fff;
+	--Color8: #fff;
+
+	--Transparent: transparent;
+
+	--color: var(--yellow-5);
+	--shadow: var(--yellow-8);
+	--glare: hsl(0 0% 100% / 0.75);
+	--font-size: var(--font-size-fluid-3);
+	--transition: 0.2s;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/*--------------------------------------------------
+	General Styles
+---------------------------------------------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+	width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+	background: var(--Transparent);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--Secondary);
+	border-radius: 5px;
+	border: 5px solid var(--Color2);
+	padding-right: 5px;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background-color: var(--Primary);
+	color: var(--Secondary);
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+html {
+	overflow: visible !important;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	overflow: hidden;
+	overflow-y: scroll;
+	transition: opacity 0.3s ease-in-out 0.2s;
+	-webkit-transition: opacity 0.3s ease-in-out 0.2s;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: calc(1rem + 4.15vw);
+	line-height: calc(1rem + 5.5vw);
+}
+
+h2 {
+	font-size: calc(1rem + 3.5vw);
+	line-height: calc(1rem + 4.5vw);
+}
+
+h3 {
+	font-size: calc(1rem + 2vw);
+	line-height: calc(1rem + 3.5vw);
+}
+
+h4 {
+	font-size: calc(1rem + 1vw);
+	line-height: calc(1rem + 2.5vw);
+}
+
+h5 {
+	font-size: calc(1rem + 0.42vw);
+	line-height: calc(1rem + 1.5vw);
+}
+
+h6 {
+	font-size: calc(1rem + 0.3vw);
+	line-height: calc(1rem + 1vw);
+}
+
+h1 span,
+h2 span,
+h3 span {
+	display: table;
+	margin-top: -0.7vw;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+img,
+video {
+	pointer-events: none;
+	user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+}
+
+a {
+	user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+}
+
+/*--------------------------------------------------
+	Custom Styles
+---------------------------------------------------*/
+
+a.gold:hover {
+	background: rgb(233, 207, 122);
+	background: linear-gradient(
+		0deg,
+		rgba(233, 207, 122, 1) 0%,
+		rgba(203, 139, 53, 1) 33%,
+		rgba(233, 207, 122, 1) 66%,
+		rgba(203, 139, 53, 1) 100%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.GoldenEmberShadow {
+	box-shadow: inset white 0px 0px 60px 0px;
 }
