@@ -35,7 +35,7 @@ const SectionSlider: React.FC<SectionSliderProps> = ({ children }) => {
 	const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
 		if (!isDragging) return;
 		const x = e.touches[0].pageX - (containerRef.current?.offsetLeft || 0);
-		const walk = (x - startX) * 1; // Adjust scroll speed if needed
+		const walk = (x - startX) * 2; // Adjust scroll speed if needed
 		if (containerRef.current) {
 			containerRef.current.scrollLeft = scrollLeft - walk;
 		}
