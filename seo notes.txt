@@ -1,0 +1,110 @@
+//Hero
+
+h1 
+MAX Hair Clinic
+
+h2
+Hair Defines You
+
+p
+Max Hair Clinic incorporated in 2004 is self-defined brand name in the modern world of Hair transplant in India cascading excellence in delivery, we continue our operations in a class apart of OPD facilities environment
+
+Max Hair Clinic incorporated in 2004 is self-defined brand name in the modern world of Hair transplant
+
+
+//Logo Slider
+
+h3
+Elite Service Emblems
+
+
+//Locations
+
+h3
+Just Steps Away
+
+p
+Odit dolor dolores rem fugiat. Qui, minima itaque. Eveniet iure incidunt odio at consequuntur.
+
+
+//About
+
+h3
+About Max
+
+p
+Odit dolor dolores rem fugiat. Qui, minima itaque. Eveniet iure incidunt odio at consequuntur.
+
+
+p
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odio magni cupiditate! Corrupti unde vel aperiam illum sequi pariatur ipsa impedit magnam, neque quasi recusandae in vitae natus soluta id.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reprehenderit voluptas quis officiis perferendis aliquam assumenda provident aspernatur, similique recusandae saepe dolores soluta illo culpa sapiente deserunt! Vero, tempore! Ab!
+
+
+//Book Appointment Banner
+
+p
+Lorem ipsum dolor sit
+
+h2
+amet consectetur adipisicing elit
+
+
+//Services
+
+h3
+Our Services
+
+p
+Odit dolor dolores rem fugiat. Qui, minima itaque. Eveniet iure incidunt odio at consequuntur.
+
+h4
+Surgical Treatments
+
+p
+Check Now
+
+h4
+Surgical Treatments
+
+p
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum, beatae dolorem nemo et sapiente cumque eligendi eveniet esse ipsum dolor! Corrupti in, laboriosam tempore aliquam dignissimos odio sequi voluptatem.
+
+h5
+Treatments
+
+p
+Basic Hair Transplant
+Women Hair Transplant
+Sapphire Hair Transplant
+IGM Hair Transplant
+DHI Hair Transplant
+Ice Cell Sapphire Mirror FUE
+Eyebrow Hair Transplant
+Beard Hair Transplant
+
+//Usps
+
+h3
+Welcome to our Hair Transplant Center
+
+p
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum, beatae dolorem nemo et sapiente cumque eligendi eveniet esse ipsum dolor! Corrupti in, laboriosam tempore aliquam dignissimos odio sequi voluptatem.
+
+p
+Best Clinic for safe Procedure
+Advanced Non-touch Bio FUE
+Advanced Non-touch Bio FUE
+
+h4
+Report Efficiency
+
+p
+Vestibulum morbi blandit cursus risus. Augue neque gravida.
+
+
+// Testimonials
+
+// best selling services
+

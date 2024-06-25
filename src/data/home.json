@@ -1,0 +1,80 @@
+{
+	"home": [
+		{
+			"services": [
+				{
+					"pageTitle": "Our Services",
+					"pageDescription": "Odit dolor dolores rem fugiat. Qui, minima itaque. Eveniet iure incidunt odio at consequuntur.",
+					"categories": [
+						{
+							"id": 1,
+							"name": "Surgical Treatments",
+							"checkOutText": "Check Out Now",
+							"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+							"services": [
+								{
+									"id": 1,
+									"name": "Basic Hair Transplant",
+									"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+									"image": "images.img.img1"
+								},
+								{
+									"id": 2,
+									"name": "Women Hair Transplant",
+									"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+									"image": "img1"
+								},
+								{
+									"id": 3,
+									"name": "Eyebrow Hair Transplant",
+									"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+									"image": "img1"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"name": "Non-Surgical Treatments",
+							"checkOutText": "Check Out Now",
+							"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+							"services": [
+								{
+									"id": 4,
+									"name": "Service 1 for Non-Surgical",
+									"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+									"image": "img1"
+								},
+								{
+									"id": 5,
+									"name": "Service 2 for Non-Surgical",
+									"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+									"image": "img1"
+								}
+							]
+						},
+						{
+							"id": 3,
+							"name": "Non-Invasive Treatments",
+							"checkOutText": "Check Out Now",
+							"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+							"services": [
+								{
+									"id": 6,
+									"name": "Service 1 for Non-Invasive",
+									"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+									"image": "img1"
+								},
+								{
+									"id": 7,
+									"name": "Service 2 for Non-Invasive",
+									"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+									"image": "img1"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

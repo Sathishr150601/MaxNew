@@ -1,6 +1,7 @@
 const images = {
 	bg: {
 		hero: require("./bg/hero.jpg"),
+		test: require("./bg/testimonials.jpg"),
 	},
 	img: {
 		logo: require("./img/logo.png"),

@@ -1,0 +1,332 @@
+{
+	"services": [
+		{
+			"surgical": [
+				{
+					"id": 1,
+					"title": "Surgical Treatments",
+					"category": "Hair Care",
+					"meta": [
+						{
+							"title": "Hair Transplant Surgery | Natural Hair Restoration | MAX Hair Clinic",
+							"desc": "MAX Hair Clinic offers surgical Hair Transplant treatments for natural Hair Restoration. Get effective solutions from our experts for your hair growth needs.",
+							"canonical": "https://mymaxhair.com/services/surgical-treatments"
+						}
+					],
+					"sub": [
+						{
+							"id": 1,
+							"title": "Basic Hair Transplant",
+							"tagline": "No more balding worries, embrace a full head!",
+							"meta": [
+								{
+									"title": "Hair Transplant | Natural Hair Restoration | MAX Hair Clinic",
+									"desc": "Get natural-looking Hair Restoration solutions with Hair Transplant procedures at MAX Hair Clinic. Our experts provide effective solutions for your hair growth needs.",
+									"canonical": "https://mymaxhair.com/services/surgical-treatments/hair-transplant"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"title": "Women Hair Transplant",
+							"tagline": "Your perfect solution to all your hairloss problems",
+							"meta": [
+								{
+									"title": "Women's Hair Transplant | Natural Hair Restoration | MAX Hair Clinic",
+									"desc": "MAX Hair Clinic offers natural Hair Restoration for women with hair loss. Get effective Hair Transplant procedures for women's hair growth.",
+									"canonical": "https://mymaxhair.com/services/surgical-treatments/women-hair-transplant"
+								}
+							]
+						},
+						{
+							"id": 3,
+							"title": "Sapphire Hair Transplant",
+							"tagline": "Sapphire Hair Transplant, the pinnacle of excellence in hair restoration!",
+							"meta": [
+								{
+									"title": "Sapphire Hair Transplant | Advanced Hair Restoration | MAX Hair Clinic",
+									"desc": "MAX Hair Clinic's IGM Hair Transplant offers advanced Hair Restoration solutions. Get effective and natural-looking results with our innovative technique.",
+									"canonical": "https://mymaxhair.com/services/surgical-treatments/sapphire-hair-transplant"
+								}
+							]
+						},
+						{
+							"id": 4,
+							"title": "IGM Hair Transplant",
+							"tagline": "The best result-oriented Hair Restoration Treatment",
+							"meta": [
+								{
+									"title": "IGM Hair Transplant | Advanced Hair Restoration | MAX Hair Clinic",
+									"desc": "MAX Hair Clinic's IGM Hair Transplant offers advanced Hair Restoration solutions. Get effective and natural-looking results with our innovative technique.",
+									"canonical": "https://mymaxhair.com/services/surgical-treatments/igm-hair-transplant"
+								}
+							]
+						},
+						{
+							"id": 5,
+							"title": "DHI Hair Transplant",
+							"tagline": "An Implanter Hair Transplant Solution for Baldness",
+							"meta": [
+								{
+									"title": "DHI Hair Transplant | Natural Hair Restoration | MAX Hair Clinic",
+									"desc": "Get natural Hair Restoration with DHI Hair Transplant at MAX Hair Clinic.",
+									"canonical": "https://mymaxhair.com/services/surgical-treatments/dhi-hair-transplant"
+								}
+							]
+						},
+						{
+							"id": 6,
+							"title": "Ice Cell Sapphire Mirror FUE",
+							"tagline": "Minimal scars, maximum hair growth: advanced treatment!",
+							"meta": [
+								{
+									"title": "ICE Cell Sapphire Micro FUE Hair Transplant | MAX Hair Clinic",
+									"desc": "MAX Hair Clinic offers ICE Cell Sapphire Micro FUE for a painless Hair Transplant experience.",
+									"canonical": "https://mymaxhair.com/services/surgical-treatments/ice-cell-sapphire-micro-fue"
+								}
+							]
+						},
+						{
+							"id": 7,
+							"title": "Eyebrow Hair Transplant",
+							"tagline": "Natural-looking, permanent eyebrows: thick and beautiful.",
+							"meta": [
+								{
+									"title": "Eyebrow Hair Transplant | Natural Hair Restoration | MAX Hair Clinic",
+									"desc": "MAX Hair Clinic offers natural-looking eyebrow Hair Transplants using advanced techniques. Achieve fuller, well-defined eyebrows with our effective Hair Restoration solutions.",
+									"canonical": "https://mymaxhair.com/services/surgical-treatments/eyebrow-hair-transplant"
+								}
+							]
+						},
+						{
+							"id": 8,
+							"title": "Beard Hair Transplant",
+							"tagline": "Get your beard back for good: permanent restoration.",
+							"meta": [
+								{
+									"title": "Beard Hair Transplant | Natural Hair Restoration | MAX Hair Clinic",
+									"desc": "MAX Hair Clinic offers natural beard Hair Transplants using advanced techniques. Achieve a fuller, well-groomed beard with our effective Hair Restoration solutions.",
+									"canonical": "https://mymaxhair.com/services/surgical-treatments/beard-hair-transplant"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"non-surgical": [
+				{
+					"id": 2,
+					"title": "Non - Surgical Treatments",
+					"meta": [
+						{
+							"title": "Non-Surgical Hair Treatments | Hair Replacement Services | Cosmetic Hair Systems | MAX Hair Clinic",
+							"desc": "MAX Hair Clinic offers non-surgical Hair Transplant treatments for natural hair regrowth. Achieve fuller, healthier-looking hair with our innovative solutions.",
+							"canonical": "https://mymaxhair.com/services/non-surgical-treatments/"
+						}
+					],
+					"sub": [
+						{
+							"id": 1,
+							"title": "Tres Pro",
+							"tagline": "Get natural-looking, easy-to-fit long hair with Tress Pro",
+							"meta": [
+								{
+									"title": "TRES-PRO Hair Extensions | MAX Hair Clinic",
+									"desc": "Get premium-quality TRES-PRO hair extensions at MAX Hair Clinic for instant volume, length, and luster. Handcrafted by experts, our extensions blend seamlessly with your natural hair.",
+									"canonical": "https://mymaxhair.com/services/non-surgical-treatments/tres-pro-hair-extension"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"title": "Celebrity's Choice",
+							"tagline": "Luxury hair replacement: choose our high-end cosmetic solutions.",
+							"meta": [
+								{
+									"title": "Mirage Hair Systems | Celebrity's Choice | MAX Hair Replacement",
+									"desc": "Get the most realistic hairlines with Mirage Hair Systems. Natural look, durability, & low-maintenance solution in versatile colors & textures.",
+									"canonical": "https://mymaxhair.com/services/non-surgical-treatments/celebrity's-choice-mirage-human"
+								}
+							]
+						},
+						{
+							"id": 3,
+							"title": "Satin Lace",
+							"tagline": "No Time for Treatments! Get the best non-surgical hair replacement",
+							"meta": [
+								{
+									"title": "Satin Lace Hair Systems | MAX Hair Clinic",
+									"desc": "Get undetectable hair solutions with our Satin Lace Systems. Choose from a variety of colors and textures for a natural look.",
+									"canonical": "https://mymaxhair.com/services/non-surgical-treatments/satin-lace-cosmetic-hair"
+								}
+							]
+						},
+						{
+							"id": 4,
+							"title": "French Grip",
+							"tagline": "Grab the most affordable hair replacement with the French Grip",
+							"meta": [
+								{
+									"title": "French Grip Hair Systems | MAX Hair Clinic",
+									"desc": "Get natural-looking, elegant hair with MAX French Grip. Hand-tied and hand-knotted, available in a variety of shades and textures.",
+									"canonical": "https://mymaxhair.com/services/non-surgical-treatments/french-grip-hair-system"
+								}
+							]
+						},
+						{
+							"id": 5,
+							"title": "Dura",
+							"tagline": "Natural-looking hair that complements your new look",
+							"meta": [
+								{
+									"title": "Dura Cosmetic Hair Extensions | MAX Hair Clinic",
+									"desc": "Get a natural look with Dura Cosmetic Hair Extensions from MAX Hair Clinic. Conceal bald spots with our 100% natural hair extensions.",
+									"canonical": "https://mymaxhair.com/services/non-surgical-treatments/dura-cosmetic-hair"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"non-invasive": [
+				{
+					"id": 3,
+					"title": "Non - Invasive Treatments",
+					"meta": [
+						{
+							"title": "Non-Invasive Hair Loss Treatments | Hair Treatments without Surgery | MAX Hair Clinic",
+							"desc": "Regain your hair without surgery. Explore our non-invasive hair loss treatments, including PRP, laser therapy, and more.",
+							"canonical": "https://mymaxhair.com/services/non-invasive-treatments"
+						}
+					],
+					"sub": [
+						{
+							"id": 1,
+							"title": "CC PRP Active+",
+							"tagline": "Regrow your natural hair with Strong strands",
+							"meta": [
+								{
+									"title": "CC-PRP Active Plus - Platelet Rich Plasma Treatment | MAX Hair Clinic",
+									"desc": "CC-PRP Active Plus is a highly effective treatment for hair loss that uses your own blood to stimulate hair growth. Discover it at MAX Hair Clinic.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/cc-prp-active-plus"
+								}
+							]
+						},
+						{
+							"id": 2,
+							"title": "Oxygen Laser Therapy",
+							"tagline": "The best solution for hair thinning. Emerged with phototherapeutic effects",
+							"meta": [
+								{
+									"title": "Boost Hair Growth with Oxygen Laser Therapy - MAX Hair Clinic",
+									"desc": "Our Oxygen Laser Therapy is a non-invasive treatment that promotes hair growth by stimulating hair follicles with increased oxygenation.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/oxygen-laser-therapy"
+								}
+							]
+						},
+						{
+							"id": 3,
+							"title": "Dr Regrowth",
+							"tagline": "Treats dull, dehydrated, and weak hair and  prevents hair loss",
+							"meta": [
+								{
+									"title": "Dr. Regrowth Hair Growth Treatment - MAX Hair Clinic",
+									"desc": "Revitalize and strengthen hair follicles with our unique treatment using low-level laser therapy and nutrient injections.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/dr-regrowth"
+								}
+							]
+						},
+						{
+							"id": 4,
+							"title": "Crotico - Shot",
+							"tagline": "Does Alopecia worry you? Get your hair back with our safest treatment",
+							"meta": [
+								{
+									"title": "MAX Hair Clinic: Hair Loss Solutions for Alopecia Areata",
+									"desc": "Get Cortico shots & Derma-Roller treatment at MAX Hair Clinic to treat Alopecia Areata. Restore up to 50% of your hair's growth.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/crotico-shot"
+								}
+							]
+						},
+						{
+							"id": 5,
+							"title": "Laser  Helmet",
+							"tagline": "Stops your hair loss problems and thickens your hair",
+							"meta": [
+								{
+									"title": "MAX Hair Clinic's Laser Helmet for Comfortable Hair Restoration",
+									"desc": "Use MAX Hair Clinic's Laser Helmet for non-surgical Hair Restoration. Wear at home for 20 minutes, 3 times a week. It thickens existing hair & stimulates new growth.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/laser-helmet"
+								}
+							]
+						},
+						{
+							"id": 6,
+							"title": "Meso QR678",
+							"tagline": "Stock up vitamins to your scalp that  prevent hair fall",
+							"meta": [
+								{
+									"title": "Meso QR 678: Advanced Hair Retention Treatment by MAX Hair Clinic",
+									"desc": "Get FDA-approved Meso QR 678 treatment at MAX Hair Clinic. Stop hair loss, thicken hair, & increase follicles. Safe, plant-based, no side effects.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/meso-qr-678-hair-retention-treatment"
+								}
+							]
+						},
+						{
+							"id": 7,
+							"title": "Scalp Detox",
+							"tagline": "Buff away dead skin and unclog product buildup from scalp",
+							"meta": [
+								{
+									"title": "MAX Hair Clinic's Scalp Detox: Get Rid of Itchy, Flaky Scalp",
+									"desc": "Detoxify your scalp at MAX Hair Clinic. Nourish & revive a dry, itchy scalp. Exfoliate dead tissues, unclog pores, & prevent hair loss. Book now.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/scalp-detox"
+								}
+							]
+						},
+						{
+							"id": 8,
+							"title": "Scalp MicroPigmentation",
+							"tagline": "Our new gen cosmetic procedure that mimics your hair",
+							"meta": [
+								{
+									"title": "Micropigmentation by MAX Hair Clinic: Natural-Looking Hairline",
+									"desc": "Get a natural-looking hairline with Scalp Micropigmentation at MAX Hair Clinic. Non-surgical, long-lasting hair loss solution. Book now.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/scalp-micropigmentation"
+								}
+							]
+						},
+						{
+							"id": 9,
+							"title": "EyeLash Extension",
+							"tagline": "Get Natural-looking Eyelashes with Custom style choices",
+							"meta": [
+								{
+									"title": "MAX Hair Clinic's Eyelash Extension: Enhance Your Beauty",
+									"desc": "Enhance your beauty with MAX Hair Clinic's Eyelash Extensions. Safe, long-lasting, and natural-looking. Book now for fuller lashes.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/eyelash-extension"
+								}
+							]
+						},
+						{
+							"id": 10,
+							"title": "EyeBrow MicroBlading",
+							"tagline": "Shape your eyebrows permanently as you've always wanted",
+							"meta": [
+								{
+									"title": "MAX Hair Clinic's Eyebrow Microblading: Natural-Looking Brows",
+									"desc": "Get natural-looking brows with Eyebrow Microblading at MAX Hair Clinic. Safe, non-surgical, and long-lasting solution. Book now.",
+									"canonical": "https://mymaxhair.com/services/non-invasive-treatments/eyebrow-microblading"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
