@@ -9,16 +9,17 @@ import {
 	Testimonials,
 	USPS,
 } from "@/components";
+import SpclServices from "@/components/BestServices/";
+import BlogSlider from "@/components/BlogsSlider";
 import images from "@/images";
 import Image from "next/image";
-import { GoArrowUpRight } from "react-icons/go";
-import { useEffect, useRef, useState } from "react";
-import servicesData from "@/data/home.json";
 import Link from "next/link";
+import { useState } from "react";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Home = () => {
 	return (
-		<PageLayout>
+		<PageLayout showHeader showFooter>
 			<Hero />
 			<ServiceLogoSlider />
 
@@ -26,19 +27,19 @@ const Home = () => {
 
 			<Locations />
 
-			<About />
+			<USPS />
 
-			<BookAppointment />
+			<About />
 
 			<Services />
 
-			<USPS />
+			<BookAppointment />
 
 			<Testimonials />
 
-			<div className="h-screen w-full flex justify-center items-center gap-5">
-				<h2 className="">Dummy Section</h2>
-			</div>
+			<SpclServices />
+
+			<BlogSlider />
 		</PageLayout>
 	);
 };

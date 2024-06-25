@@ -178,3 +178,53 @@ a.gold:hover {
 .GoldenEmberShadow {
 	box-shadow: inset white 0px 0px 60px 0px;
 }
+
+/* Spcl Services */
+.service svg {
+	width: 0.6em !important;
+}
+.service span {
+	margin-top: 10px;
+}
+.service img.s1 {
+	display: none;
+}
+.service:hover img.s1 {
+	display: block;
+	animation: createBox 0.25s;
+}
+.service:hover span {
+	z-index: 20;
+	/* color: #fff; */
+}
+.service:hover .glow {
+	color: #fff;
+	text-align: center;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+	from {
+		text-shadow: 0 0 10px #000;
+	}
+	to {
+		text-shadow: 0 0 10px #000;
+	}
+}
+
+@keyframes createBox {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+:where(.css-dev-only-do-not-override-m4timi).ant-carousel .slick-dots-bottom {
+	bottom: -15px;
+}
+
+:where(.css-dev-only-do-not-override-m4timi).ant-carousel .slick-dots li {
+	background: black;
+}

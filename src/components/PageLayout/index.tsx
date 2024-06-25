@@ -14,13 +14,13 @@ const PageLayout: React.FC<LayoutProps> = ({
 	showFooter = false,
 }) => {
 	return (
-		<>
+		<Template>
 			{showHeader && <Header />}
-			<Template>
-				<main className="flex-grow">{children}</main>
-			</Template>
+
+			{children}
+
 			{showFooter && <Footer />}
-		</>
+		</Template>
 	);
 };
 

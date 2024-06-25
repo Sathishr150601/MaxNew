@@ -3,10 +3,11 @@ import Heading from "../Heading";
 import images from "@/images";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useLayoutEffect, useState } from "react";
+import Marquee from "react-fast-marquee";
 
 const TestimonialsHeading = {
-	title: "",
-	desc: "",
+	title: "Client Testimonials",
+	desc: "Odit dolor dolores rem fugiat. Qui, minima itaque. Eveniet iure incidunt odio at consequuntur.",
 };
 
 const TestimonialsData = {
@@ -50,7 +51,7 @@ const Testimonials: React.FC = () => {
 		};
 	}, [scrollY]);
 
-	const y1 = useTransform(scrollY, [start, end1], [-100, 600]);
+	const y1 = useTransform(scrollY, [start, end1], [-100, 650]);
 	const y2 = useTransform(scrollY, [start, end2], [0, 1000]);
 
 	return (
@@ -61,7 +62,7 @@ const Testimonials: React.FC = () => {
 			/>
 
 			<div
-				className="relative w-full h-[150vh] lg:h-[300vh]"
+				className="relative w-full h-[150vh] lg:h-[300vh] overflow-hidden"
 				id="SectionRef"
 				ref={sectionRef}
 			>
@@ -74,6 +75,26 @@ const Testimonials: React.FC = () => {
 						className="pointer-events-none"
 						loading="lazy"
 					/>
+				</div>
+
+				<div className="absolute z-[5] w-full flex justify-evenly overflow-hidden h-[150vh] lg:h-[300vh]">
+					<section className="w-2/5">
+						<Image src={images.img.img1} alt="" className="pb-[70%]" />
+						<Image src={images.img.img1} alt="" className="pb-[70%]" />
+						<Image src={images.img.img1} alt="" className="pb-[70%]" />
+						<Image src={images.img.img1} alt="" className="pb-[70%]" />
+						<Image src={images.img.img1} alt="" className="pb-[70%]" />
+						<Image src={images.img.img1} alt="" className="pb-[70%]" />
+					</section>
+
+					<section className="w-2/5">
+						<Image src={images.img.img1} alt="" className="pt-[70%]" />
+						<Image src={images.img.img1} alt="" className="pt-[70%]" />
+						<Image src={images.img.img1} alt="" className="pt-[70%]" />
+						<Image src={images.img.img1} alt="" className="pt-[70%]" />
+						<Image src={images.img.img1} alt="" className="pt-[70%]" />
+						<Image src={images.img.img1} alt="" className="pt-[70%]" />
+					</section>
 				</div>
 
 				{/* First motion.div */}

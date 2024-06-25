@@ -19,7 +19,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
 	const y = useTransform(smoothScrollY, (value) => -value * 0.9);
 
 	return (
-		<motion.div style={{ y }}>
+		<motion.main style={{ y }}>
 			<motion.div
 				className="relative z-5"
 				initial={{ opacity: 0 }}
@@ -36,6 +36,6 @@ export default function Template({ children }: { children: React.ReactNode }) {
 				exit={{ translateY: "100%" }}
 				transition={{ duration: 2, ease: [0.22, 1, 0.36, 1] }}
 			></motion.div> */}
-		</motion.div>
+		</motion.main>
 	);
 }
