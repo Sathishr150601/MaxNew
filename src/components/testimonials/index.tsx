@@ -3,7 +3,6 @@ import Heading from "../Heading";
 import images from "@/images";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useLayoutEffect, useState } from "react";
-import { debounce } from "lodash";
 
 const TestimonialsHeading = {
 	title: "",
@@ -25,7 +24,7 @@ const Testimonials: React.FC = () => {
 	const [end2, setEnd2] = useState(0); // State for end position of second motion.div
 
 	useLayoutEffect(() => {
-		const handleScroll = debounce(() => {
+		const handleScroll = () => {
 			if (sectionRef.current && contentRef1.current && contentRef2.current) {
 				const sectionTop = sectionRef.current.getBoundingClientRect().top;
 				const contentBottom1 =
@@ -42,7 +41,7 @@ const Testimonials: React.FC = () => {
 				setEnd1(newEnd1);
 				setEnd2(newEnd2);
 			}
-		}, 16);
+		};
 
 		handleScroll();
 		window.addEventListener("scroll", handleScroll);

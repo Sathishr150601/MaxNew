@@ -12,7 +12,7 @@ import {
 import images from "@/images";
 import Image from "next/image";
 import { GoArrowUpRight } from "react-icons/go";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import servicesData from "@/data/home.json";
 import Link from "next/link";
 
